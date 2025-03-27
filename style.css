@@ -5,7 +5,7 @@
     --pale-sage:#dbdfbc;
     --sage:#c0c78f;
     --brown:#c2b598;
-    --blush:#fbe6e5;
+    --blush:#f0dbd9;
 }
 
 * {
@@ -15,7 +15,7 @@
 }
 
 body {
-    background-image: url("greentartan.jpg");
+    background-image: url("greengingham.jpg");
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -26,17 +26,28 @@ body {
 }
 
 .header {
-    background-color: var(--blush);
+    background-image: url("greentartan.jpg");
     width: 80vw;
     height: 10vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 30px 10px 30px 10px;
-    border: solid var(--brown);
+    border: solid 2px var(--sage);
     border-radius: 20px 20px 0px 0px;
+    padding: 30px 10px 30px 10px;
     margin-top: 10vh;
+}
+
+.header h1 {
+    background-color: var(--cream);
+    text-align: center;
+    color: var(--brown);
+    font-size: 24px;
+    border: solid 2px var(--pale-sage);
+    border-radius: 15px;
+    padding: 5px 15px 5px 15px;
+    margin: 30px;
 }
 
 .container {
@@ -47,18 +58,11 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 30px;
-    border: solid var(--blush);
+    padding: 20px;
+    border: solid 2px var(--blush);
     border-top: none;
     border-radius: 0px 0px 20px 20px;
     margin-bottom: 10vh;
-}
-
-.container h1 {
-    text-align: center;
-    color: var(--sage);
-    font-size: 36px;
-    margin: 10px;
 }
 
 .container p {

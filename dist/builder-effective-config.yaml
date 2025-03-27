@@ -1,0 +1,12 @@
+directories:
+  output: dist
+  buildResources: build
+appId: pear-alarm
+productName: Pear Alarm
+files:
+  - filter:
+      - '**/*'
+win:
+  target: portable
+  icon: build/icon.ico
+electronVersion: 35.1.1

@@ -1,15 +1,27 @@
 {
   "name": "pear-alarm",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "start": "electron ."
-  },
-  "keywords": [],
+  "version": "0.0.1",
+  "description": "a pear alarm for restocking",
   "author": "julia veal",
-  "license": "ISC",
-  "description": "",
+  "main": "./index.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "build": {
+    "appId": "pear-alarm",
+    "productName": "Pear Alarm",
+    "files": [
+      "**/*"
+    ],
+    "win": {
+      "target": "portable",
+      "icon": "build/icon.ico"
+    }
+  },
+  "dependencies": {},
   "devDependencies": {
-    "electron": "^35.1.1"
+    "electron": "latest",
+    "electron-builder": "latest"
   }
 }
