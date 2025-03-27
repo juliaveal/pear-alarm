@@ -6,7 +6,7 @@
     "start": "electron ."
   },
   "keywords": [],
-  "author": "",
+  "author": "julia veal",
   "license": "ISC",
   "description": "",
   "devDependencies": {

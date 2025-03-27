@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --cream:#fefef6;
+    --pale-sage:#dbdfbc;
+    --sage:#c0c78f;
+    --brown:#c2b598;
+    --blush:#fbe6e5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("greentartan.jpg");
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--brown);
+    font-family: 'Libre Franklin';
+}
+
+.header {
+    background-color: var(--blush);
+    width: 80vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10px 30px 10px;
+    border: solid var(--brown);
+    border-radius: 20px 20px 0px 0px;
+    margin-top: 10vh;
+}
+
+.container {
+    background-color: var(--cream);
+    width: 80vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border: solid var(--blush);
+    border-top: none;
+    border-radius: 0px 0px 20px 20px;
+    margin-bottom: 10vh;
+}
+
+.container h1 {
+    text-align: center;
+    color: var(--sage);
+    font-size: 36px;
+    margin: 10px;
+}
+
+.container p {
+    text-align: center;
+    font-size: 24px;
+}
+
+.container img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+
+#clock {
+    text-align: center;
+    color: var(--brown);
+    font-size: 48px;
+    font-weight: bold;
+    margin: 10px;
+}
